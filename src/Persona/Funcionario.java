@@ -8,6 +8,8 @@ package Persona;
 
 
 public class Funcionario extends Persona {
+
+
     /**
      * atributos mas relevantes de la clase Funcionario
      * el atributo "codFuncionario" es estatico debido a que necesitamos que el valor se guarde aun despues de
@@ -16,6 +18,13 @@ public class Funcionario extends Persona {
     private String puesto;
     private static int codFuncionario = 1500;
 
+    public String getPuesto() {
+        return puesto;
+    }
+
+    public static int getCodFuncionario() {
+        return codFuncionario;
+    }
     /**
      * Constructor de la Clase Funcionario
      * @param nombre

@@ -1,7 +1,10 @@
 
+
 import Persona.Estudiante;
 import Persona.Funcionario;
-import Persona.Persona;
+
+
+import static ModuloArchivar.PDF.generarPdf;
 
 /**
  * esta es la clase Main, la cual funciona para ejecutar pruebas al codigo
@@ -30,7 +33,6 @@ public class Main {
 
         Funcionario f2 = new Funcionario("Norma", "Mujer", 23);
         f2.mostrarInformacion();
-
-
+        generarPdf(f2);
     }
 }

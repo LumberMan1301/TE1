@@ -23,6 +23,8 @@ package Persona;
  * instancias de sus clases derivadas
  */
 public abstract class Persona {
+
+
     /**
      * Se declaran las varibles de nuestra clase padre, en este punto podemos apreciar los atributos de el Objeto Persona
      * que son el resultado de la Abstraccion, para este contexto en especifico del objeto nada mas se ocuparon los atributos
@@ -32,6 +34,17 @@ public abstract class Persona {
     protected String sexo;
     protected int edad;
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
     /**
      * Se presenta el constructor de la clase, el cual es un metodo especial para inicializar las instancias
      *
