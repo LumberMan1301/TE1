@@ -1,6 +1,6 @@
 package Persona;
 
-public class Persona {
+public abstract class Persona {
     protected String nombre;
     protected String sexo;
     protected int edad;

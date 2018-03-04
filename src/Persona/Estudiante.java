@@ -1,6 +1,6 @@
 package Persona;
 
-public abstract class Estudiante extends Persona{
+public class Estudiante extends Persona{
     private String carrera;
     private static int carnet = 2016000000;
 
@@ -11,4 +11,13 @@ public abstract class Estudiante extends Persona{
         carnet+=1;
     }
 
+    @Override
+    public void mostrarInformacion() {
+        super.mostrarInformacion();
+        mostrarInformacionE();
+    }
+    private void mostrarInformacionE(){
+        System.out.println("Carrera: "+ this.carrera);
+        System.out.println("Carné: "+ this.carnet+"\n");
+    }
 }
