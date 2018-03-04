@@ -14,7 +14,7 @@ public class Funcionario extends Persona {
      * terminarse de ejecutar el metodo constructor
      */
     private String puesto;
-    private static int codFuncionario = 0000;
+    private static int codFuncionario = 1500;
 
     /**
      * Constructor de la Clase Funcionario
