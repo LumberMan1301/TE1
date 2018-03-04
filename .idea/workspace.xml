@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e712edca-e4e2-44ff-9f53-9eabbd4832b4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Informacion_del_Estudiante" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/Persona/Funcionario.java" afterPath="$PROJECT_DIR$/src/Persona/Funcionario.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/TE1/Main.class" afterPath="$PROJECT_DIR$/out/production/TE1/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/TE1/Persona/Funcionario.class" afterPath="$PROJECT_DIR$/out/production/TE1/Persona/Funcionario.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/TE1/Persona/Persona.class" afterPath="$PROJECT_DIR$/out/production/TE1/Persona/Persona.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,20 +45,30 @@
         <entry file="file://$PROJECT_DIR$/src/Persona/Funcionario.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
-              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+              <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="242">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Informacion_del_Estudiante" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Informacion_del_Estudiante">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/Persona/Persona.java" />
         <option value="$PROJECT_DIR$/src/Persona/Funcionario.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/Informacion_del_Estudiante" />
       </list>
     </option>
   </component>
@@ -135,12 +148,6 @@
               <item name="TE1" type="b2602c69:ProjectViewProjectNode" />
               <item name="TE1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TE1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TE1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Persona" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -283,7 +290,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520124856449</updated>
-      <workItem from="1520124858167" duration="11264000" />
+      <workItem from="1520124858167" duration="11541000" />
     </task>
     <task id="LOCAL-00001" summary="18.58">
       <created>1520125133555</created>
@@ -334,11 +341,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520146207234</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="00.56">
+      <created>1520146576432</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1520146576432</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11264000" />
+    <option name="totallyTimeSpent" value="11541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -387,7 +401,8 @@
     <MESSAGE value="21.51" />
     <MESSAGE value="00.36.4.3.2018&#10;Se comienza con JavaDoc" />
     <MESSAGE value="00.48" />
-    <option name="LAST_COMMIT_MESSAGE" value="00.48" />
+    <MESSAGE value="00.56" />
+    <option name="LAST_COMMIT_MESSAGE" value="00.56" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -416,7 +431,7 @@
     <entry file="file://$PROJECT_DIR$/src/Persona/Funcionario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
-          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -424,10 +439,18 @@
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Informacion_del_Estudiante">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
