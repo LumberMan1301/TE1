@@ -31,12 +31,20 @@ public class Funcionario extends Persona {
 
         }
 
+    /**
+     * Se presenta una modificacion del metodo heredado que funciona para mostrar la informacion de
+     * los objetos creados, con lo que se abarca el concepto de sobre-escritura, se identifica la sobre-escritura
+     * debido a la presencia de la frase reservada "@Override", e igualmente se encapsula el metodo.
+     */
     @Override
     public void mostrarInformacion() {
         super.mostrarInformacion();
         mostrarInformacionF();
     }
 
+    /**
+     * metodo privado que contien la logica detras del metodo publico
+     */
     private void mostrarInformacionF(){
         System.out.println("Puesto: "+ this.puesto);
         System.out.println("Codigo de Funcionario: "+ this.codFuncionario+"\n");
