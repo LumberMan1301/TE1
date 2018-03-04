@@ -1,6 +1,7 @@
 
 import Persona.Estudiante;
 import Persona.Funcionario;
+import Persona.Persona;
 
 /**
  * esta es la clase Main, la cual funciona para ejecutar pruebas al codigo
@@ -22,10 +23,13 @@ public class Main {
         Estudiante e2 = new Estudiante("Karla", "mujer", 21, "Computadores");
         e2.mostrarInformacion();
         /**
-         * se crea la instacia f1 proveniente de la clase Funcionario
+         * se crea la instacia "f1" y "f2" proveniente de la clase Funcionario
          */
         Funcionario f1 = new Funcionario("Martin", "hombre", 30, "Operador");
         f1.mostrarInformacion();
+
+        Funcionario f2 = new Funcionario("Norma", "Mujer", 23);
+        f2.mostrarInformacion();
 
 
     }

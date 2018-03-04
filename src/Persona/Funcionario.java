@@ -32,6 +32,22 @@ public class Funcionario extends Persona {
         }
 
     /**
+     * Se crea otro Constructor, en caso de que el funcionaio no se le haya asignado el puesto
+     * En este punto podemos apreciar la sobre-carga o Overload, ya que tenemos dos metodos diferentes
+     * pero con parametros distintos
+     * @param nombre
+     * @param sexo
+     * @param edad
+     */
+
+    public Funcionario(String nombre, String sexo, int edad) {
+        super(nombre, sexo, edad);
+        this.puesto = "Sin Puesto definido";
+        this.codFuncionario = codFuncionario;
+        codFuncionario+=1;
+
+    }
+    /**
      * Se presenta una modificacion del metodo heredado que funciona para mostrar la informacion de
      * los objetos creados, con lo que se abarca el concepto de sobre-escritura, se identifica la sobre-escritura
      * debido a la presencia de la frase reservada "@Override", e igualmente se encapsula el metodo.
