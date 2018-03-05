@@ -4,8 +4,8 @@ import Persona.*;
 
 public class PDF {
 
-    public static void generarPdf(Persona p)  {
-        System.out.println("Generando PDF de :"+ p.getNombre());
+    public static void generarPdf(String nombre)  {
+        System.out.println("Generando PDF de :"+ nombre);
         int cantSegundos = 0;
         while (cantSegundos<4){
             pausa();

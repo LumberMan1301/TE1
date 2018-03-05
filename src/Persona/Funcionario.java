@@ -1,5 +1,8 @@
 package Persona;
 
+
+import static ModuloArchivar.PDF.generarPdf;
+
 /**
  * la siguiente es una clase derivada de la clase Persona, podemos observar que se esta empleando la herencia
  * mediante la palabra reservada "extends", la cual sirve para referenciar que la clase Funcionario es Hija
@@ -74,6 +77,8 @@ public class Funcionario extends Persona {
         System.out.println("Puesto: "+ this.puesto);
         System.out.println("Codigo de Funcionario: "+ this.codFuncionario+"\n");
     }
+
+
 }
 
 

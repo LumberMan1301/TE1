@@ -33,6 +33,8 @@ public class Main {
 
         Funcionario f2 = new Funcionario("Norma", "Mujer", 23);
         f2.mostrarInformacion();
-        generarPdf(f2);
+        f2.generarDoc();
+        f2.imprime();
+
     }
 }

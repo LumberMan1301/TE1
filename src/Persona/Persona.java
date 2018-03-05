@@ -13,7 +13,12 @@ package Persona;
  * </p>
  */
 
+/**
+ * aqui se importan los metodos de las clases dentro del ModuloArchivar, las cuales pueden ser usadas por las clases derivadas
+ */
 
+import static ModuloArchivar.Impresion.imprimir;
+import static ModuloArchivar.PDF.generarPdf;
 
 /**
  * La siguiente es la Super-clase Persona, aqui podemos apreciar el concepto de Abstraccion, ya que determinamos
@@ -79,4 +84,17 @@ public abstract class Persona {
         System.out.println("Edad: " + edad);
 
         }
+    public void generarDoc(){
+        generarDocP();
+    }
+    private void generarDocP(){
+        generarPdf(this.getNombre());
+    }
+
+    public void imprime(){
+        imprimeP();
+    }
+    private void imprimeP(){
+        imprimir();
+    }
 }
