@@ -1,18 +1,10 @@
 package Persona;
-
-
-import static ModuloArchivar.PDF.generarPdf;
-
 /**
  * la siguiente es una clase derivada de la clase Persona, podemos observar que se esta empleando la herencia
  * mediante la palabra reservada "extends", la cual sirve para referenciar que la clase Funcionario es Hija
  * de la clase Persona
  */
-
-
 public class Funcionario extends Persona {
-
-
     /**
      * atributos mas relevantes de la clase Funcionario
      * el atributo "codFuncionario" es estatico debido a que necesitamos que el valor se guarde aun despues de
@@ -24,7 +16,6 @@ public class Funcionario extends Persona {
     public String getPuesto() {
         return puesto;
     }
-
     public static int getCodFuncionario() {
         return codFuncionario;
     }
@@ -42,7 +33,6 @@ public class Funcionario extends Persona {
         codFuncionario+=1;
 
         }
-
     /**
      * Se crea otro Constructor, en caso de que el funcionaio no se le haya asignado el puesto
      * En este punto podemos apreciar la sobre-carga o Overload, ya que tenemos dos metodos diferentes

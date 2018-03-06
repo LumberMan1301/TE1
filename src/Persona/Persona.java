@@ -6,16 +6,9 @@ package Persona;
  * en este preograma se van a representar lso conceptos de:
  * Abstracccion, Encapsulacion, Clase, Atributo, Metodo, Instancia, Herencia, Polimorfismo, Override, Overload, y Modularidad
  * </p>
- * <p>
- *     Se presenta el contexto en el cual se ambienta la implementacion de la siguiente solucion:
- *     Una entidad de enseñanza desea llevar el control tanto de funcionarios como de estudiantes, mediante la creacion
- *     de archivos(Personas) con caracteristicas similares, pero que el sistema logre reconocer que son entidades separadas.
- * </p>
+ *
  */
 
-/**
- * aqui se importan los metodos de las clases dentro del ModuloArchivar, las cuales pueden ser usadas por las clases derivadas
- */
 
 import static ModuloArchivar.Impresion.imprimir;
 import static ModuloArchivar.PDF.generarPdf;
@@ -28,8 +21,6 @@ import static ModuloArchivar.PDF.generarPdf;
  * instancias de sus clases derivadas
  */
 public abstract class Persona {
-
-
     /**
      * Se declaran las varibles de nuestra clase padre, en este punto podemos apreciar los atributos de el Objeto Persona
      * que son el resultado de la Abstraccion, para este contexto en especifico del objeto nada mas se ocuparon los atributos
@@ -38,6 +29,7 @@ public abstract class Persona {
     protected String nombre;
     protected String sexo;
     protected int edad;
+
 
     public String getNombre() {
         return nombre;
@@ -74,7 +66,6 @@ public abstract class Persona {
     public void mostrarInformacion(){
             mostrarInformacionP();
         }
-
     /**
      * metodo privado que contiene la logica.
      */
@@ -84,13 +75,24 @@ public abstract class Persona {
         System.out.println("Edad: " + edad);
 
         }
+
+    /**
+     * metodo que genera un Documento, llmando al modulo ModuloArchivar
+     */
     public void generarDoc(){
         generarDocP();
     }
+
+    /**
+     * metodo privado que contiene la logica
+     */
     private void generarDocP(){
         generarPdf(this.getNombre());
     }
 
+    /**
+     * metodo que genera la impresion de un documento
+     */
     public void imprime(){
         imprimeP();
     }
